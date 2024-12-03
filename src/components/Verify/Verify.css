@@ -1,0 +1,110 @@
+.verify-container{
+    overflow-x: hidden;
+}
+@media(max-width:1286px){
+    .verify-container{
+        width: 100%;
+        margin-bottom: 50px;
+    }  
+}
+@media(max-width:900px){
+    .verify-container{
+        padding: 0 30px;
+        margin-bottom: 50px;
+    }
+    .veify-heading{
+        font-size: 30px;
+        line-height: 35px;
+    }
+    .verify-btn{
+        width: 180px;
+        height: 48px;
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media(max-width:530px){
+    .verify-container{
+        padding: 0px;
+        height: 150px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        margin-bottom: 40px;
+    }
+    .veify-heading{
+        font-size: 25px;
+        line-height: 30px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .verify-headspan{
+        border-bottom: none;
+    }
+    .verify-btn{
+        width: 160px;
+        height: 40px;
+        font-size: 14px;
+        line-height: 18px;
+        font-weight: 600;
+    }
+}
+@media(max-width:320px){
+    .verify-container{
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    .veify-heading{
+        font-size: 20px;
+        line-height: 28px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .verify-headspan{
+        border-bottom: none;
+    }
+    .verify-btn{
+        width: 140px;
+        height: 35px;
+        font-size: 13px;
+        line-height: 16px;
+        font-weight: 500;
+    }
+}
+@media(max-width:240px){
+    .verify-container{
+        padding: 30px 0px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+    }
+    .veify-heading{
+        font-size: 11px;
+        line-height: 20px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .verify-headspan{
+        border-bottom: none;
+    }
+    .verify-btn{
+        width: 85px;
+        height: 25px;
+        font-size: 12px;
+        line-height: 15px;
+        font-weight: 400;
+    }
+}

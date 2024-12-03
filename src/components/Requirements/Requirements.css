@@ -1,0 +1,372 @@
+.requirementSection{
+    overflow-x: hidden;
+}
+@media(min-width:1286){
+    .requirementSection{
+        padding: 0 98px;
+        margin-bottom: 144px;   
+    }
+    .requirements-container{
+        width: 1316px;
+        height: 623px;
+        padding-left: 72px;
+        padding-top: 72px;
+        padding-bottom: 136px;
+        gap: 65px;
+    }
+    .yotube-frame{
+        width: 640px;
+        height: 350px;
+    }
+    .buyersupplier-container{
+        gap: 88px;
+    }
+    .buyer-head-div{
+        width: 202px;
+        height: 47px;
+        line-height: 32px;
+        font-size: 26px;
+        gap: 11px;
+    }
+    .supplier-head-div{
+        width: 202px;
+        height: 47px;
+        line-height: 32px;
+        font-size: 26px;
+        gap: 11px;
+    }
+    .buyersupplier-info-div{
+        width: 461px;
+        height: 156px;
+        margin-top: 40px;
+    }
+    .info-div{
+        gap: 10px;
+    }
+    .info-icon{
+        width: 18px;
+        height: 18px;
+    }
+    .info-text{
+        font-size: 18.75px;
+        line-height: 39px;
+    }
+}
+
+@media(min-width:1000px) and (max-width:1285.99px){
+    .requirementSection{
+        padding: 0 98px;
+        margin-bottom: 100px;   
+    }
+    .requirements-container{
+        width: 100%;
+        height: auto;
+        padding-left: 20px;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        gap: 65px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .yotube-frame{
+        width: 620px;
+        height: 330px;
+    }
+    .buyersupplier-container{
+        gap: 88px;
+    }
+    .buyer-head-div{
+        width: 202px;
+        height: 47px;
+        line-height: 32px;
+        font-size: 26px;
+        gap: 11px;
+    }
+    .supplier-head-div{
+        width: 202px;
+        height: 47px;
+        line-height: 32px;
+        font-size: 26px;
+        gap: 11px;
+    }
+    .buyersupplier-info-div{
+        width: 461px;
+        height: 156px;
+        margin-top: 40px;
+    }
+    .info-div{
+        gap: 10px;
+    }
+    .info-icon{
+        width: 18px;
+        height: 18px;
+    }
+    .info-text{
+        font-size: 18.75px;
+        line-height: 39px;
+    }
+}
+
+@media(min-width:800px) and (max-width:999.99px){
+    .requirementSection{
+        padding: 0 50px;
+        margin-bottom: 50px;   
+    }
+    .requirements-container{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-top: 62px;
+        padding-bottom: 70px;
+        gap: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .yotube-frame{
+        width: 600px;
+        height: 310px;
+    }
+    .buyersupplier-container{
+        gap: 88px;
+    }
+    .buyer-head-div{
+        width: 200px;
+        height: 45px;
+        line-height: 30px;
+        font-size: 25px;
+        gap: 10px;
+    }
+    .supplier-head-div{
+        width: 200px;
+        height: 45px;
+        line-height: 30px;
+        font-size: 25px;
+        gap: 10px;
+    }
+    .buyersupplier-info-div{
+        width: 461px;
+        height: 156px;
+        margin-top: 30px;
+    }
+    .info-div{
+        gap: 10px;
+    }
+    .info-icon{
+        width: 17.5px;
+        height: 17.5px;
+    }
+    .info-text{
+        font-size: 18px;
+        line-height: 39px;
+    }
+}
+
+@media(min-width:590px) and (max-width:799.99px){
+    .requirementSection{
+        padding: 0 20px;
+        margin-bottom: 60px;   
+    }
+    .requirements-container{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-top: 62px;
+        padding-bottom: 70px;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .yotube-frame{
+        width: 500px;
+        height: 260px;
+    }
+    .buyersupplier-container{
+        gap: 88px;
+    }
+    .buyer-head-div{
+        width: 200px;
+        height: 45px;
+        line-height: 29px;
+        font-size: 24px;
+        gap: 9px;
+    }
+    .supplier-head-div{
+        width: 200px;
+        height: 45px;
+        line-height: 29px;
+        font-size: 24px;
+        gap: 9px;
+    }
+    .buyersupplier-info-div{
+        width: 461px;
+        height: 156px;
+        margin-top: 28px;
+    }
+    .info-div{
+        gap: 10px;
+    }
+    .info-icon{
+        width: 17px;
+        height: 17px;
+    }
+    .info-text{
+        font-size: 17px;
+        line-height: 38px;
+    }
+}
+
+@media(min-width:475px) and (max-width:589.99px){
+    .requirementSection{
+        padding: 0 10px;
+        margin-bottom: 50px;   
+    }
+    .requirements-container{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-top: 62px;
+        padding-bottom: 70px;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .yotube-frame{
+        width: 90%;
+        height: 200px;
+    }
+    .buyersupplier-info-container{
+        display: none;
+    }
+    .mob-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mob-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 20px;
+    }
+    .mob-heading{
+        width: 90px;
+        height: 35px;
+        background: rgba(213, 239, 255, 0.29);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .mob-info-icon{
+        width: 16px;
+        height: 16px;
+    }
+    .mob-info-text{
+        font-size: 15px;
+        line-height: 30px;
+    }
+}
+@media(min-width:350px) and (max-width:473.99px){
+    .requirementSection{
+        padding: 0 0;
+        margin-bottom: 90px;   
+    }
+    .requirements-container{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-top: 50px;
+        padding-bottom: 70px;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .yotube-frame{
+        width: 90%;
+        height: 170px;
+    }
+    .buyersupplier-info-container{
+        display: none;
+    }
+    .mob-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mob-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 20px;
+    }
+    .mob-heading{
+        width: 85px;
+        height: 32px;
+        background: rgba(213, 239, 255, 0.29);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .mob-info-icon{
+        width: 14px;
+        height: 14px;
+    }
+    .mob-info-text{
+        font-size: 14px;
+        line-height: 26px;
+    }
+}
+
+@media(max-width:349.99px){
+    .requirementSection{
+        padding: 0 0;
+        margin-bottom: 50px;   
+    }
+    .requirements-container{
+        width: 100%;
+        height: auto;
+        padding-left: 0;
+        padding-top: 40px;
+        padding-bottom: 70px;
+        gap: 40px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .yotube-frame{
+        width: 90%;
+        height: auto;
+    }
+    .buyersupplier-info-container{
+        display: none;
+    }
+    .mob-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .mob-container{
+        width: 100%;
+        padding: 0 10px;
+        gap: 20px;
+    }
+    .mob-heading{
+        width: 75px;
+        height: 32px;
+        font-size: 12px;
+        background: rgba(213, 239, 255, 0.29);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 5px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+    .mob-info-icon{
+        width: 13px;
+        height: 13px;
+    }
+    .mob-info-text{
+        font-size: 13px;
+        line-height: 24px;
+    }
+}
