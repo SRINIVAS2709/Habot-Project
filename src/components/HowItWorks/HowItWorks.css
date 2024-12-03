@@ -1,7 +1,7 @@
 .howitworks-container{
     overflow-x: hidden;
 }
-@media(min-width:1286px){
+@media(min-width:1440px){
     .howitworks-container{
         width: 1512px;
         height: 809px;
@@ -28,6 +28,61 @@
         height: 508px;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+@media(min-width:1286px) and (max-width:1439.99px){
+    .howitworks-container{
+        width: 100%;
+        height: auto;
+        padding: 0px 0px;
+        margin-bottom: 110px;
+        align-items: center;
+        justify-content: center;
+        place-items: center;
+    }
+    .howitworks-heading{
+        width: 287px;
+        height: 48px;
+        font-size: 37.34px;
+        line-height: 48px;
+        margin-top: 15px;
+        margin-bottom: 26px;
+    }
+    .howitworks-para{
+        width: 839px;
+        height: 52px;
+        font-size: 17.16px;
+        line-height: 26px;
+        margin-bottom: 73px;
+    }
+    .howitworks-grid-main-div{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .howitworks-grid-container{
+        width: auto;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        place-items: center;
+        margin: auto;
+    }
+    .howitworks-grid-individual-div{
+        width: 290px;
+        height: 200px;
+    }
+    .individual-div-img{
+        width: 85px;
+        height: 85px;
+    }
+    .individual-div-text{
+        width: 100%;
+        font-size: 16px;
     }
 }
 @media(min-width:1000px) and (max-width:1285.99px){

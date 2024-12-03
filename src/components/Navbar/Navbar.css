@@ -98,6 +98,18 @@
         margin: 10px 0;
         font-size: 15px;
     }
+    .dropdown-content::-webkit-scrollbar{
+        width: 4px;
+    }
+    .dropdown-content::-webkit-scrollbar-thumb{
+        background-color: #072f57;
+        border-radius: 20px;
+    }
+    .dropdown-li{
+        font-size: 13px;
+        font-weight: 500;
+        color: #072F57;
+    }
     
 }
 @media(min-width:800px) and (max-width:999.99px){
@@ -135,6 +147,18 @@
         padding: 16px 19.9px;
         margin: 10px 0;
         font-size: 14px;
+    }
+    .dropdown-content::-webkit-scrollbar{
+        width: 4px;
+    }
+    .dropdown-content::-webkit-scrollbar-thumb{
+        background-color: #072f57;
+        border-radius: 20px;
+    }
+    .dropdown-li{
+        font-size: 13px;
+        font-weight: 500;
+        color: #072F57;
     }   
 }
 @media(max-width:799.99px){

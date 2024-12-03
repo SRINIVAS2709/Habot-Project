@@ -1,12 +1,13 @@
 .requirementSection{
     overflow-x: hidden;
 }
-@media(min-width:1286){
+@media(min-width:1440px){
     .requirementSection{
         padding: 0 98px;
         margin-bottom: 144px;   
     }
     .requirements-container{
+        align-items: center;
         width: 1316px;
         height: 623px;
         padding-left: 72px;
@@ -52,10 +53,67 @@
         line-height: 39px;
     }
 }
+@media(min-width:1286px) and (max-width:1439.99px){
+    .requirementSection{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 98px;
+        margin-bottom: 100px;  
+    }
+    .requirements-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: auto;
+        height: auto;
+        padding: 50px 150px;
+        padding-bottom: 80px;
+        gap: 65px;
+    }
+    .yotube-frame{
+        width: 640px;
+        height: 350px;
+    }
+    .buyersupplier-container{
+        gap: 88px;
+    }
+    .buyer-head-div{
+        width: 202px;
+        height: 47px;
+        line-height: 32px;
+        font-size: 26px;
+        gap: 11px;
+    }
+    .supplier-head-div{
+        width: 202px;
+        height: 47px;
+        line-height: 32px;
+        font-size: 26px;
+        gap: 11px;
+    }
+    .buyersupplier-info-div{
+        width: 461px;
+        height: 156px;
+        margin-top: 40px;
+    }
+    .info-div{
+        gap: 10px;
+    }
+    .info-icon{
+        width: 18px;
+        height: 18px;
+    }
+    .info-text{
+        font-size: 18.75px;
+        line-height: 39px;
+    }
+}
 @media(min-width:1000px) and (max-width:1285.99px){
     .requirementSection{
         padding: 0 98px;
-        margin-bottom: 100px;   
+        margin-bottom: 100px;  
     }
     .requirements-container{
         width: 100%;
@@ -265,7 +323,7 @@
 @media(min-width:350px) and (max-width:473.99px){
     .requirementSection{
         padding: 0 0;
-        margin-bottom: 90px;   
+        margin-bottom: 50px;   
     }
     .requirements-container{
         width: 100%;

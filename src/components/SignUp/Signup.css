@@ -1,7 +1,7 @@
 .signup-container{
     overflow-x: hidden;
 }
-@media(min-width:1286px){
+@media(min-width:1440px){
     .signup-container{
         height: 504px;
         gap: 146px;
@@ -29,6 +29,63 @@
     .signup-right{
         width: 100%;
         height: auto;
+    }
+    .signup-div2{
+        width: 541px;
+        height: 244px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-column-gap: 21px;
+    }
+    .signup-div2-btn{
+        width: 260px;
+        height: 65px;
+        font-size: 18.75px;
+        line-height: 32px;
+        padding-top: 17px;
+        padding-bottom: 16px;
+        border-radius: 5px;
+    }
+}
+@media(min-width:1286px) and (max-width:1439.99px){
+    .signup-container{
+        height: auto;
+        gap: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 0;
+    }
+    .signup-div1{
+        align-items: center;
+    }
+    .signup-div1-heading{
+        width: 563px;
+        height: 40px;
+        font-size: 37px;
+    }
+    .signup-div1-para{
+        width: 70%;
+        height: 120px;
+        font-size: 17.16px;
+        line-height: 28px;
+        margin-top: 35px;
+        text-align: center;
+    }
+    .signup-div1-btn{
+        width: 317px;
+        height: 54px;
+        font-size: 18px;
+        margin-top: 37px;
+        padding: 19px 0;
+        padding-left: 43px;
+    }
+    .signup-right{
+        width: 100%;
+        height: auto;
+        place-items: center;
     }
     .signup-div2{
         width: 541px;

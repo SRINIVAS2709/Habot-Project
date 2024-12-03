@@ -1,6 +1,14 @@
 .verify-container{
     overflow-x: hidden;
 }
+@media(max-width:1440px){
+    .verify-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 10px;
+    }
+}
 @media(max-width:1286px){
     .verify-container{
         width: 100%;
