@@ -1,7 +1,6 @@
 .signup-container{
     overflow-x: hidden;
 }
-
 @media(min-width:1286px){
     .signup-container{
         height: 504px;
@@ -49,7 +48,6 @@
         border-radius: 5px;
     }
 }
-
 @media(min-width:1000px) and (max-width:1285.99px){
     .signup-container{
         flex-direction: column;
@@ -97,7 +95,6 @@
     }
 
 }
-
 @media(min-width:750px) and (max-width:999.99px){
     .signup-container{
         flex-direction: column;
@@ -138,7 +135,6 @@
     }
     
 }
-
 @media(min-width:500px) and (max-width:749.99px){
     .signup-container{
         flex-direction: column;
@@ -204,7 +200,6 @@
         display: none;
     }
 }
-
 @media(max-width:499.99px){
     .signup-container{
         flex-direction: column;

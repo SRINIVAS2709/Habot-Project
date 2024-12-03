@@ -53,7 +53,6 @@
         height: 40px;
     }
 }
-
 @media(min-width:1000px) and (max-width:1285.99px){
     .footer-section{
         width: 100%;
@@ -111,7 +110,6 @@
         height: 40px;
     }
 }
-
 @media(min-width:800px) and (max-width:999.99px){
     .footer-section{
         width: 100%;
@@ -172,7 +170,6 @@
         height: 30px;
     }
 }
-
 @media(min-width:520px) and (max-width:799.99px){
     .footer-section{
         width: 100%;
@@ -239,7 +236,6 @@
         height: 30px;
     }
 }
-
 @media(min-width:290px) and (max-width:519.99px){
     .footer-section{
         width: 100%;
@@ -309,7 +305,6 @@
         height: 30px;
     }
 }
-
 @media(max-width:289.99px){
     .footer-section{
         width: 100%;

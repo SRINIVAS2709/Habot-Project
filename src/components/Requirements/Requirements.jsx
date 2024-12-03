@@ -12,34 +12,29 @@ const Requirements = () => {
     return (
         <section className='px-[98px] mb-[144px] font-poppins requirementSection'>
             <div className='w-[1316px] h-[623px] bg-naviblue rounded-[5px] pl-[72px] pt-[137px] pb-[136px] flex gap-[65px] requirements-container'>
-
-                {/* Youtube video */}
-
+            {/* Youtube video */}
                 <iframe width="640" height="350" src="https://www.youtube.com/embed/i8tgRHXx4oQ?si=TBp6pM9Nl8VRFjdp" title="YouTube video player"
                     frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                     referrerpolicy="strict-origin-when-cross-origin" allowfullscreen className='rounded-[5px] yotube-frame'>
-
                 </iframe>
-
-               {/* Buyer and supplier Desktop View  */}
+            {/* Buyer and supplier Desktop View  */}
                 <div className='buyersupplier-info-container'>
                     <div className='flex gap-[88px] buyersupplier-container'>
 
-                        {/* used useState hook to change border and Info */}
+                    {/* used useState hook to change border and Info */}
                         <h4 onClick={() => { setMenu("buyer") }}
                             className={`w-[202px] h-[47px]  leading-[32px] text-[26px] font-bold flex flex-col gap-[11px] items-center cursor-pointer buyer-head-div
                             ${menu === "buyer" ? 'text-lightOrange border-b-[4px] border-lightOrange' : 'text-white'}`}>
                             Buyer
                         </h4>
 
-                       {/* used useState hook to change border and Info */}
-                        <h4 onClick={() => { setMenu("suppliers")}}
+                    {/* used useState hook to change border and Info */}
+                        <h4 onClick={() => { setMenu("suppliers") }}
                             className={`w-[202px] h-[47px] leading-[32px] text-[26px] font-bold flex flex-col gap-[11px] items-center cursor-pointer supplier-head-div
                             ${menu === "suppliers" ? 'text-lightOrange border-b-[4px] border-lightOrange' : 'text-white'}`}>
                             Supplier
                         </h4>
                     </div>
-
                     <div className='w-[461px] h-[156px] mt-[40px] buyersupplier-info-div'>
                         <div className='flex gap-[10px] items-baseline info-div'>
                             <img className='w-[18px] h-[18px] info-icon' src={checkedIcon} alt="checked arrow" />
@@ -55,9 +50,7 @@ const Requirements = () => {
                         </div>
                     </div>
                 </div>
-
-                {/* Mobile view of buyer and supplier div*/}
-
+            {/* Mobile view of buyer and supplier div*/}
                 <div className='text-white mob-container hidden'>
                     <div className='mob-buyer-div'>
                         <h4 className='mob-heading'>Buyers</h4>

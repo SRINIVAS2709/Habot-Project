@@ -1,7 +1,6 @@
 .howitworks-container{
     overflow-x: hidden;
 }
-
 @media(min-width:1286px){
     .howitworks-container{
         width: 1512px;
@@ -31,7 +30,6 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
-
 @media(min-width:1000px) and (max-width:1285.99px){
     .howitworks-container{
         width: 100%;
@@ -198,7 +196,6 @@
         font-size: 15px;
     }
 }
-
 @media(min-width:550px) and (max-width:779.99px){
     .howitworks-container{
         width: 100%;
@@ -324,7 +321,6 @@
         font-size: 12px;
     }
 }
-
 @media(min-width:353px) and (max-width:464.99px){
     .howitworks-container{
         width: 100%;

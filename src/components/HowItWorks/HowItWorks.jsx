@@ -11,15 +11,15 @@ import handShakeIcon from '../../assets/handShake.png'
 const HowItWorks = () => {
     return (
         <section className='px-[156px] w-[1512px] h-[809px] flex flex-col items-center justify-center text-[#222222] font-poppins mb-110px howitworks-container'>
-             {/* Heading and paragraph */}
+        {/* Heading and paragraph */}
             <h2 className='w-[287px] h-[48px] text-[37.34px] leading-[48px] font-bold mt-[15px] mb-[26px] howitworks-heading'>How it works?</h2>
             <p className='w-[839px] h-[52px] text-center text-[17.16px] leading-[26px] font-normal mb-[73px] howitworks-para'>
                 Buyers post their needs and review top suppliers, while suppliers complete profiles,
                 connect with potential buyers, and build successful business relationships, sharing
                 valuable feedback.
             </p>
-              {/* grid div*/}
-              {/* we can achive this by some other methods eg: map(), but for simplicity and custom sizes of elements i choosed this */}
+        {/* grid div*/}
+        {/* we can achive this by some other methods eg: map(), but for simplicity and custom sizes of elements i choosed this */}
             <div className='howitworks-grid-main-div w-full'>
                 <div className='w-[1200px] h-[508px] grid grid-cols-3 howitworks-grid-container'>
                     <div className='w-[400px] h-[254px] bg-[#E8FBFF] flex flex-col items-center justify-center gap-[38.65px] howitworks-grid-individual-div'>
@@ -48,7 +48,6 @@ const HowItWorks = () => {
                     </div>
                 </div>
             </div>
-
         </section>
     )
 }

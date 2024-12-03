@@ -52,7 +52,6 @@
         line-height: 39px;
     }
 }
-
 @media(min-width:1000px) and (max-width:1285.99px){
     .requirementSection{
         padding: 0 98px;
@@ -106,7 +105,6 @@
         line-height: 39px;
     }
 }
-
 @media(min-width:800px) and (max-width:999.99px){
     .requirementSection{
         padding: 0 50px;
@@ -160,7 +158,6 @@
         line-height: 39px;
     }
 }
-
 @media(min-width:590px) and (max-width:799.99px){
     .requirementSection{
         padding: 0 20px;
@@ -214,7 +211,6 @@
         line-height: 38px;
     }
 }
-
 @media(min-width:475px) and (max-width:589.99px){
     .requirementSection{
         padding: 0 10px;
@@ -317,7 +313,6 @@
         line-height: 26px;
     }
 }
-
 @media(max-width:349.99px){
     .requirementSection{
         padding: 0 0;
