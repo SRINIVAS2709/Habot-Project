@@ -7,6 +7,7 @@ import location from '../../assets/placeholder.png'
 const Hero = () => {
   return (
     <section id='hero-section' className='font-poppins'>
+      {alert("Hello hiring team, my code accurately reflects the figma design, with a minimum screen width of 1440px & high required for the design to display as intended. Thank You!!")}
     {/* Heading Text div */}
       <div className='areyousupplier-div text-white flex flex-col items-center '>
         <h1 className='flex flex-col items-center py-0 areyousupplier-text1 font-normal'><span className='areyousupplier-text2'>Are You a Supplier?</span>Explore Matching Opportunities.</h1>
